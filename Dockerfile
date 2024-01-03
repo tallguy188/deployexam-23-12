@@ -1,5 +1,5 @@
 # GraalVM을 기반 이미지로 사용
-FROM ghcr.io/graalvm/jdk-community:17
+FROM ghcr.io/graalvm/graalvm-community:21
 
 # 작업 디렉토리 설정
 WORKDIR /app
